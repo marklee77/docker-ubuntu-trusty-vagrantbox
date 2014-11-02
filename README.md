@@ -1,9 +1,8 @@
-docker-baseimage-python
-=======================
+docker-ubuntu-trusty-vagrantbox
+===============================
 
-The purpose of this docker image is to provide an environment with ssh and
-python, suitable for use in the development of ansible playbooks and roles with
-vagrant.
+The purpose of this docker image is to provide an environment that mimics a 
+typical vagrant box.
 
 License
 -------
