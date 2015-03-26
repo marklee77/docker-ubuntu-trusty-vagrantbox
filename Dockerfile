@@ -17,4 +17,6 @@ RUN chown -R vagrant:vagrant /home/vagrant && \
     chmod 0700 /home/vagrant/.ssh && \
     chmod 0600 /home/vagrant/.ssh/authorized_keys
 
+RUN rm -f /etc/service/sshd/down
+
 RUN echo 'vagrant ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/vagrant
